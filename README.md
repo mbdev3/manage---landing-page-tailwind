@@ -2,6 +2,10 @@
 
 ![Preview](/img/preview.webp?raw=true)
 
+## Live url
+
+[::rocket::](https://manage-mbdev.netlify.app/)
+
 ### commands:
 
 ```
