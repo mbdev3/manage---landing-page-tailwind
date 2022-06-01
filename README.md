@@ -2,7 +2,7 @@
 
 ![Preview](/img/preview.webp?raw=true)
 
-## [Live url](https://manage-mbdev.netlify.app/)
+[**demo**](https://manage-mbdev.netlify.app/)
 
 ## commands:
 
