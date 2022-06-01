@@ -28,6 +28,30 @@
           class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
           >get started</a
         >
+        <!-- mobile nav -->
+        <button
+          role="button"
+          type="button"
+          title="nav toggle"
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-sm"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Comunity</a>
+        </div>
       </div>
     </nav>
 
@@ -194,16 +218,74 @@
     </section>
     <footer class="bg-veryDarkBlue">
       <div
-        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0"
       >
         <div
-          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+          class="flex flex-col-reverse items-center justify-between space-y-12 lg:flex-col lg:space-y-0 lg:items-start gap-6 lg:gap-0"
         >
-          <div>
-            <img src="./img/logo-white.svg" alt="" />
+          <div class="">
+            <img src="./img/logo-white.svg" class="h-8" alt="" />
+          </div>
+          <div class="flex justify-center space-x-4">
+            <!-- link-1 -->
+            <a href="#">
+              <img src="./img/icon-facebook.svg" alt="fb" />
+            </a>
+            <!-- link-2 -->
+            <a href="#">
+              <img src="./img/icon-youtube.svg" alt="fb" />
+            </a>
+            <!-- link-3 -->
+            <a href="#">
+              <img src="./img/icon-twitter.svg" alt="fb" />
+            </a>
+            <!-- link-4 -->
+            <a href="#">
+              <img src="./img/icon-instagram.svg" alt="fb" />
+            </a>
+            <!-- link-5 -->
+            <a href="#">
+              <img src="./img/icon-pinterest.svg" alt="fb" />
+            </a>
+          </div>
+        </div>
+        <div>
+          <!-- list container -->
+          <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed"> Home </a>
+              <a href="#" class="hover:text-brightRed"> Pricing </a>
+              <a href="#" class="hover:text-brightRed"> Products </a>
+              <a href="#" class="hover:text-brightRed"> About </a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed"> Careers </a>
+              <a href="#" class="hover:text-brightRed"> Community </a>
+              <a href="#" class="hover:text-brightRed"> Privacy Policy </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="updates in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-white md:block opacity-50">
+            Copyright &copy; 2022, All Rights Reserved
           </div>
         </div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
