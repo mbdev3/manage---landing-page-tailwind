@@ -2,7 +2,7 @@
 
 ![Preview](/img/preview.webp?raw=true)
 
-[**demo**](https://manage-mbdev.netlify.app/)
+::rocket:: [demo](https://manage-mbdev.netlify.app/)
 
 ## commands:
 
