@@ -2,11 +2,9 @@
 
 ![Preview](/img/preview.webp?raw=true)
 
-## Live url
+## [Live url](https://manage-mbdev.netlify.app/)
 
-[::rocket::](https://manage-mbdev.netlify.app/)
-
-### commands:
+## commands:
 
 ```
 npm init -y
